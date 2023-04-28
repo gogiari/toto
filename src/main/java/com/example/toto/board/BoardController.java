@@ -25,6 +25,7 @@ public class BoardController {
 
         // 메뉴
         List<MenuVo> menuList = menuService.getMenuList();
+        System.out.println(menuList);
 
 
         // BoardList - 게시글 목록
